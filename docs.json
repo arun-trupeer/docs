@@ -1,78 +1,59 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Trupeer Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6A6FCE",
+    "light": "#6A6FCE",
+    "dark": "#6A6FCE"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "group": "Quickstart Guide",
+        "pages": [
+          "quickstart-guide/install-extension",
+          "quickstart-guide/screen-record",
+          "quickstart-guide/upload-recordings"
+        ],
+        "hidden": true
+      },
+      {
+        "group": "Video Features",
+        "pages": [
+          "video-features/edit-script",
+          "video-features/adding-voiceovers",
+          "video-features/incorporating-music",
+          "video-features/setting-backgrounds",
+          "video-features/intro-outro",
+          "video-features/heygen-integration",
+          "video-features/export-video",
+          "video-features/brand-kit",
+          "video-features/change-layout",
+          "video-features/translation",
+          "video-features/zoom-effects",
+          "video-features/add-background-image",
+          "video-features/cropping"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
+        "group": "Guide Features",
+        "pages": [
+          "guide-features/editing-documents",
+          "guide-features/insert-screenshots",
+          "guide-features/annotate-screenshot",
+          "guide-features/export-document"
+        ]
+      },
+      {
+        "group": "Sharing Your Content",
+        "pages": [
+          "sharing-your-content/create-page",
+          "sharing-your-content/view-analytics"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -82,20 +63,24 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hello@trupeer.ai"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Application",
+      "href": "https://app.trupeer.ai"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/TrupeerAI",
+      "youtube": "https://www.youtube.com/@Trupeerai",
+      "linkedin": "https://www.linkedin.com/company/trupeer-ai/"
     }
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
   }
 }

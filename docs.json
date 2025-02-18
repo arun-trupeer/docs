@@ -7,7 +7,7 @@
     "light": "#6A6FCE",
     "dark": "#6A6FCE"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "groups": [
       {
@@ -22,25 +22,25 @@
       {
         "group": "Video Features",
         "pages": [
+          "video-features/intro-outro",
           "video-features/edit-script",
           "video-features/adding-voiceovers",
           "video-features/incorporating-music",
           "video-features/setting-backgrounds",
-          "video-features/intro-outro",
-          "video-features/heygen-integration",
-          "video-features/export-video",
-          "video-features/brand-kit",
           "video-features/change-layout",
           "video-features/translation",
           "video-features/zoom-effects",
-          "video-features/add-background-image",
-          "video-features/cropping"
+          "video-features/cropping",
+          "video-features/heygen-integration",
+          "video-features/brand-kit",
+          "video-features/export-video"
         ]
       },
       {
         "group": "Guide Features",
         "pages": [
           "guide-features/editing-documents",
+          "guide-features/translate-document",
           "guide-features/insert-screenshots",
           "guide-features/annotate-screenshot",
           "guide-features/export-document"

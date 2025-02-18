@@ -13,21 +13,19 @@
       {
         "group": "Quickstart Guide",
         "pages": [
-          "quickstart-guide/install-extension",
-          "quickstart-guide/screen-record",
+          "quickstart-guide/intro",
           "quickstart-guide/upload-recordings"
-        ],
-        "hidden": true
+        ]
       },
       {
         "group": "Video Features",
         "pages": [
-          "video-features/intro-outro",
           "video-features/edit-script",
           "video-features/adding-voiceovers",
           "video-features/incorporating-music",
           "video-features/setting-backgrounds",
           "video-features/change-layout",
+          "video-features/intro-outro",
           "video-features/translation",
           "video-features/zoom-effects",
           "video-features/cropping",
@@ -37,13 +35,13 @@
         ]
       },
       {
-        "group": "Guide Features",
+        "group": "Document Features",
         "pages": [
-          "guide-features/editing-documents",
-          "guide-features/translate-document",
-          "guide-features/insert-screenshots",
-          "guide-features/annotate-screenshot",
-          "guide-features/export-document"
+          "document-features/editing-documents",
+          "document-features/translate-document",
+          "document-features/insert-screenshots",
+          "document-features/annotate-screenshot",
+          "document-features/export-document"
         ]
       },
       {

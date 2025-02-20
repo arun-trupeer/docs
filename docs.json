@@ -11,10 +11,11 @@
   "navigation": {
     "groups": [
       {
-        "group": "Quickstart Guide",
+        "group": "Getting Started",
         "pages": [
-          "quickstart-guide/intro",
-          "quickstart-guide/upload-recordings"
+          "getting-started/quickstart",
+          "getting-started/screen-record",
+          "getting-started/upload-recordings"
         ]
       },
       {
@@ -23,25 +24,38 @@
           "video-features/edit-script",
           "video-features/adding-voiceovers",
           "video-features/incorporating-music",
-          "video-features/setting-backgrounds",
           "video-features/change-layout",
-          "video-features/intro-outro",
-          "video-features/translation",
           "video-features/zoom-effects",
           "video-features/cropping",
-          "video-features/heygen-integration",
-          "video-features/brand-kit",
+          "video-features/avatar-integration",
           "video-features/export-video"
+        ]
+      },
+      {
+        "group": "Visual Effects",
+        "pages": [
+          "visual-effects/setting-backgrounds",
+          "visual-effects/intro-outro"
         ]
       },
       {
         "group": "Document Features",
         "pages": [
           "document-features/editing-documents",
-          "document-features/translate-document",
           "document-features/insert-screenshots",
           "document-features/annotate-screenshot",
           "document-features/export-document"
+        ]
+      },
+      {
+        "group": "Brand Customization",
+        "pages": ["brand-customization/brand-kit"]
+      },
+      {
+        "group": "Translating Content",
+        "pages": [
+          "translating-content/translate-video",
+          "translating-content/translate-document"
         ]
       },
       {
@@ -54,8 +68,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
   },
   "navbar": {
     "links": [
